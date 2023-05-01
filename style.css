@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow:visible;
+}
+html{
+    height:100%;
+    width:100%;
+}
+body{
+    background-image:url('istockphoto-1457820514-170667a.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:inline-block;
+}
+.maindiv{
+    position:relative;
+    width:90%;
+    top:200px;
+    left:500px;
+    box-shadow:0 0 10px;
+    
+}
+.top-heading{
+    text-align: center;
+    text-transform: capitalize;
+    font-size:1rem;
+    color:white;
+    background-color: red;
+    padding:5px 0 5px 0;
+}
+.input-output{
+    background-color: white;
+    text-align: center;
+}
+.input-output input{
+    padding:4px 20px;
+    text-align: center;
+    text-transform: capitalize;
+    margin:15px 15px 20px 15px;
+}
+.btn button{
+    padding:5px 80px;
+    background-color: green;
+    color:white;
+    text-transform: capitalize;
+    border:none;
+    cursor: pointer;
+    display: inline-block;
+}

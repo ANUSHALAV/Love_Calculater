@@ -1,0 +1,45 @@
+
+
+@media screen and (max-width:1000px){
+    .maindiv{
+        top:150px;
+        left:300px;
+        
+    }
+}
+
+@media screen and (max-width:750px){
+    .maindiv{
+        top:200px;
+        left:200px;
+        
+    }
+}
+
+@media screen and (max-width:600px){
+    .maindiv{
+        left:150px;    
+    }
+    .input-output{
+        text-align: center;
+    }
+}
+@media screen and (max-width:500px){
+    .maindiv{
+        width:80%;
+        left:80px;    
+    }
+}
+
+
+@media screen and (max-width:400px){
+    .maindiv{
+        left:50px;
+}
+}
+@media screen and (max-width:300px){
+    .maindiv{
+        left:30px;
+        top:150px;
+}
+}
