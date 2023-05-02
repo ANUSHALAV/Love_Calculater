@@ -1,12 +1,4 @@
-let clickbtn=()=>{
-    if(validdate()){
-        let result=Math.floor(Math.random()*100);
-        document.getElementById('result').value=result+"%";
-        document.getElementById('yname').value="";
-        document.getElementById('lname').value="";
-
-    }
-}
+"use strict"
 
 let validdate=()=>{
     let yourname=document.getElementById('yname').value;
@@ -28,4 +20,14 @@ let validdate=()=>{
         return false;
     }
     return true;
+}
+
+let clickbtn=()=>{
+    if(validdate()){
+        let result=Math.floor(Math.random()*100);
+        document.getElementById('result').value=result+"%";
+        document.getElementById('yname').value="";
+        document.getElementById('lname').value="";
+
+    }
 }
