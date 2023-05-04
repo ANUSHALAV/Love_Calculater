@@ -1,11 +1,11 @@
 
-@media screen and (max-width:1250px){
+@media screen and (max-width:1280px){
     .maindiv{
         left:400px;
         
     }
 }
-@media screen and (max-width:1000px){
+@media screen and (max-width:1095px){
     .maindiv{
         top:150px;
         left:300px;
@@ -13,10 +13,10 @@
     }
 }
 
-@media screen and (max-width:750px){
+@media screen and (max-width:775px){
     .maindiv{
         top:200px;
-        left:200px;
+        left:180px;
         
     }
 }
