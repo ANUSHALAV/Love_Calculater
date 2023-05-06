@@ -2,50 +2,50 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    overflow:visible;
+    /* border:1px solid black; */
 }
 html{
-    height:100%;
-    width:100%;
+    overflow:hidden;
 }
+
 body{
-    background-image:url('istockphoto-1457820514-170667a.jpg');
+    height:100%;
+    background-image:url(istockphoto-1457820514-170667a.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    display:inline-block;
 }
 .maindiv{
+    text-align: center;
+    margin-inline:200px;
     position:relative;
-    width:90%;
-    top:200px;
-    left:500px;
-    box-shadow:0 0 10px;
-    
+    margin-block:200px;
+    background-color: #fff;
+    border:1px solid green;
+    box-shadow: 0 0 7px #000;
 }
 .top-heading{
-    text-align: center;
+    padding-block:10px;
     text-transform: capitalize;
-    font-size:1rem;
-    color:white;
-    background-color: red;
-    padding:5px 0 5px 0;
-}
-.input-output{
-    background-color: white;
-    text-align: center;
+    font-size: 1.5rem;
+    background-color: rgb(240, 93, 93);
+    color:#fff;
 }
 .input-output input{
-    padding:4px 20px;
+    width:30%;
     text-align: center;
+    padding:8px 25px;
     text-transform: capitalize;
-    margin:15px 15px 20px 15px;
+    margin-block:20px;
+    outline: none;
+
 }
-.btn button{
-    padding:5px 80px;
+.input-output .btn button{
+    padding:8px 50px;
+    text-transform: uppercase;
+    font-size: 1rem;
     background-color: green;
-    color:white;
-    text-transform: capitalize;
-    border:none;
+    color:#fff;
     cursor: pointer;
-    display: inline-block;
+    border:none;
+
 }

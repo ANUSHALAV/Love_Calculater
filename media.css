@@ -1,50 +1,17 @@
-
-@media screen and (max-width:1280px){
+@media screen and (max-width:1050px){
     .maindiv{
-        left:400px;
-        
-    }
+        margin-inline:120px;
 }
-@media screen and (max-width:1095px){
-    .maindiv{
-        top:150px;
-        left:300px;
-        
-    }
 }
 
-@media screen and (max-width:775px){
+@media screen and (max-width:850px){
     .maindiv{
-        top:200px;
-        left:180px;
-        
-    }
+        margin-inline:50px;
+}
 }
 
 @media screen and (max-width:600px){
-    .maindiv{
-        left:150px;    
+    .input-output input{
+        width:40%;
     }
-    .input-output{
-        text-align: center;
-    }
-}
-@media screen and (max-width:500px){
-    .maindiv{
-        width:80%;
-        left:80px;    
-    }
-}
-
-
-@media screen and (max-width:400px){
-    .maindiv{
-        left:50px;
-}
-}
-@media screen and (max-width:300px){
-    .maindiv{
-        left:30px;
-        top:150px;
-}
 }
