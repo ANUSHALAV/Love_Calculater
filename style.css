@@ -2,17 +2,13 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    /* border:1px solid black; */
-}
-html{
-    overflow:hidden;
 }
 
 body{
-    height:100%;
-    background-image:url(istockphoto-1457820514-170667a.jpg);
+    background-image:url('istockphoto-1457820514-170667a.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
+    background-position:center;
 }
 .maindiv{
     text-align: center;

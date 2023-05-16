@@ -13,5 +13,6 @@
 @media screen and (max-width:600px){
     .input-output input{
         width:40%;
+        padding-inline:5px;
     }
 }
